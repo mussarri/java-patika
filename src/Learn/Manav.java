@@ -13,6 +13,8 @@ public class Manav {
         System.out.println("Muz: " + muzKg);
         System.out.println("Kiraz: " + kirazKg);
 
+
+
         Scanner input = new Scanner(System.in);
         System.out.print("Elma miktari(kg): ");
         elma = input.nextDouble();
