@@ -20,6 +20,6 @@ public class Login {
         }else{
             System.out.println("Kullanici adi yanlis");
         }
-        
+
     }
 }
