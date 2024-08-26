@@ -1,5 +1,7 @@
 package Learn;
 
+import java.util.Scanner;
+
 public class RecursivePattern {
 	
 	static void recursivePattern(int a, int b, int c) {
@@ -8,7 +10,7 @@ public class RecursivePattern {
 		if(b == 1) {
 			System.out.print(" " + num);
 			num -=5 ;
-			if(num == 0) {				
+			if(num <= 0) {				
 				recursivePattern(num, 2, c);
 			}else {
 				recursivePattern(num, 1, c);
@@ -21,7 +23,6 @@ public class RecursivePattern {
 				return;
 			}
 			recursivePattern(num, 2, c);
-	
 			
 		}else {
 			return;
@@ -35,7 +36,12 @@ public class RecursivePattern {
 
 
 	public static void main(String[] args) {
-		recursivePattern(15);
+		while(true) {
+			Scanner input = new Scanner(System.in);
+			System.out.print("\nSayiyi giriniz: ");
+			int number = input.nextInt();
+			recursivePattern(number);
+		}
 	}
 
 }
