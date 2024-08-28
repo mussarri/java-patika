@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class FindDublicate {
 	
+ 
 	static boolean isInclude(int[] array, int a) {
 		for(int item: array) {
 			if(item == a) {
