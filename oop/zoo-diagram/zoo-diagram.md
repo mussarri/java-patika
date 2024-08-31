@@ -1,1 +1,1 @@
-![alt text](//www.plantuml.com/plantuml/png/jPAnJWCn38RtF4L64EeBL0n5gYec1hgnkSbF6f5pKEmA4F3kX1grt7pN397osVbYMrc9KjF3K1pjH1i5zQ6GYB_ZF53ndyxtTIEl21doG0EMVgijSxB06tBQwz8_bqfgY5BFoQpEZWcwhjBXrVKvpVW6YDkmHpoK7Zs9lvsp6kvh4tYyApYUAvgiVSAkqKbhZqothYk_u6DsxGObymM6y5WZMEVq_YbklnOBwzuTTmF7cVy7DgxH9MjrXAnAjmB7tp_w0m00)
+![alt text](zoo-diagram.png)
